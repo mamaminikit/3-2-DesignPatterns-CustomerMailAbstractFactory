@@ -25,5 +25,7 @@
 > Client  ⎯⎯⎯➔  IContact { createMail(), createBrochure() }
 > 
 > IContact ⎯⎯⎯➔ RegularCustomerFactory { createMail(), createBrochure() }
+> 
 > IContact ⎯⎯⎯➔ MountainCustomerFactory { createMail(), createBrochure() }
+> 
 > DelinquentCustomerFactory ⎯⎯⎯➔ RegularCustomerFactory { createMail(), createBrochure() }
