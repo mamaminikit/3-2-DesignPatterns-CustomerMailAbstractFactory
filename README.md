@@ -12,13 +12,19 @@
 > [!TIP]
 > **"เอกสารอธิบายโปรแกรม"**
 > 
-> _Factory Method:_ มีการสร้างClass RegularCustomerFactory, MountainCustomerFactory, and DelinquentCustomerFactory ขึ้นมา เพื่อเป็นตัวแทนของcustomer ในประเภทต่างๆ
+> _Factory Method:_ มีการสร้างClass RegularCustomerFactory, MountainCustomerFactory,
+> and DelinquentCustomerFactory ขึ้นมา
+>
+> เพื่อเป็นตัวแทนของcustomer ในประเภทต่างๆ
 > แล้วเรียกใช้Method Getter ของClass ต่างๆ เพื่อสร้างObject ที่ต้องการ โดยไม่ผ่านConstructor
-> 
-> _Singleton:_ มีการสร้างObject ไว้ล่วงหน้าในแต่ละClass Factory ของประเภทลูกค้า ด้วยวิธีแบบ "**EAGER APPROACH**" 
+>
+> _Singleton:_ มีการสร้างObject ไว้ล่วงหน้าในแต่ละClass Factory ของประเภทลูกค้า
+>
+> ด้วยวิธีแบบ "**EAGER APPROACH**" 
 > และกำหนดPrivate Default Constructor เพื่อให้สามารถสร้างObject ของClass ได้เพียงตัวเดียว
 > 
 > _Abstract Factory:_ มีการสร้างIContact ไว้ เพื่อเป็นFactory ใหญ่ไว้สร้างFactory อื่นๆ 
+>
 > และCustomerFactory เพื่อเรียกใช้Factory ลูกค้าแต่ละประเภท
 
 
